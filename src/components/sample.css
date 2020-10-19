@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+.particlesJS {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 1089px) {
+  .particlesJS {
+    display: flex;
+  }
+}
